@@ -1,0 +1,54 @@
+---
+layout: default
+title: Home
+---
+
+<div class="row">
+  <div class="large-12 large-centered columns">
+    <header class="masthead">
+      <div>
+        <img src="{{ site.baseurl }}/public/profile.jpg" alt="{{ site.title }}">
+      </div>
+      <div class="row social">
+        <ul>
+          <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://in/linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </header>
+  </div>
+</div>
+<div class="row">
+  <div class="large-6 large-offset-3 columns">
+    <div class="content-section">
+      <p>
+        Hi, there. I’m Amitosh Swain Mahapatra. I’m a student, part-time full-stack web developer,
+        machine learning enthusiast and, open-source conributor from Cuttack, IN.
+        I’ve also created, as well as contributed a number of <a href="https://github.com/{{ site.github }}">
+        open source projects</a> using .NET, NodeJS, PHP, &amp; Python.
+        I'm currently focused on machine learning and neural networks and its application to data science.
+      </p>
+      <p>
+        I’m working at <a href="https://lecturenotes.in">LectureNotes.in</a>, an educational start-up in Bhubaneswar, IN
+        as a full-stack web developer and systems architect.
+      </p>
+    </div>
+    <main>
+      <div class="posts">
+        <h1>Latest Posts</h1>
+        {% for post in site.posts limit:5 %}
+          <article class="project-post">
+            <h3>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h3>
+            <div class="post-date">
+              <time datetime="post.date | date_to_xmlschema">{{ post.date | date_to_long_string }}</time>
+            </div>
+            {{ post.excerpt }}
+          </article>
+        {% endfor %}
+      </div>
+    </main>
+  </div>
+</div>

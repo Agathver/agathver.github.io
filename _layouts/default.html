@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {{ content }}
+    <div class="row">
+      <footer class="large-6 large-offset-3 columns">
+        <h2>Contact Me</h2>
+        <p>
+          Send me an <a href="mailto:{{ site.email }}?Subject=Hello!">email</a> or
+          ping me on <a href="https://twitter.com/{{site.twitter}}">Twitter</a>.
+          I’m also on <a href="https://github.com/{{site.github}}">Github</a>
+          and <a href="https://in.linkedin.com/in/{{site.linkedin}}">Linkedin</a>.
+        </p>
+
+        <p class="copyright">
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </p>
+      </footer>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
