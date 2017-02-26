@@ -1,8 +1,8 @@
 # Site settings
 title: Amitosh Swain Mahapatra
-email: me@amitosh.in
+email: asm@amitosh.in
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://amitosh.in" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://amitosh.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter: originalASM
 github:  Agathver
