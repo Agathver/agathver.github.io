@@ -8,14 +8,21 @@ twitter: originalASM
 github:  Agathver
 linkedin: amitosh-swain
 
+google_analytics: 'UA-73363098-1'
 # Build settings
 markdown: kramdown
 
-paginate: 5
+paginate: 6
+paginate_path: "/blog/:num/"
 permalink: pretty
+
+feed:
+  path: /feed/atom.xml
 
 gems:
   - jekyll-feed
+  - jekyll-paginate
+
 exclude:
   - Gemfile
   - Gemfile.lock

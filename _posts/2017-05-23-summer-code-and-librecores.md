@@ -11,7 +11,7 @@ I have been selected for [Google Summer of Code][1] (GSoC) 2017. I’ll be worki
 <img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal.svg" />
 <img style="margin: auto;height: 128px" src="https://www.librecores.org/img/logo_small.svg" />
 
-LibreCores is place to find free and open-source hardware IP cores and a place to meet the community driving it. It lists various open-source IP cores for FPGAs and SoCs for the community to discover and use.
+LibreCores is a place to find free and open-source hardware IP cores and to meet the community driving it. It lists various open-source IP cores for FPGAs and SoCs for the community to discover and use.
 
 ## Project Description
 A user browsing for cores on LibreCores will be interested to know the quality of the project’s
