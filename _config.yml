@@ -19,6 +19,14 @@ permalink: pretty
 feed:
   path: /feed/atom.xml
 
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    author: 'Amitosh Swain Mahapatra'
+
 gems:
   - jekyll-feed
   - jekyll-paginate

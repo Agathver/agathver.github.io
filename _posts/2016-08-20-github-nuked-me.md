@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GitHub has nuked me!"
+title:  "GitHub Has Nuked Me!"
 date:   2016-08-20 17:08:50 +0530
 categories: thoughts
 comments: true
