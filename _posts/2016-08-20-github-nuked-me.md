@@ -4,6 +4,7 @@ title:  "GitHub Has Nuked Me!"
 date:   2016-08-20 17:08:50 +0530
 categories: thoughts
 comments: true
+tags: [github]
 ---
 
 On a fine Saturday morning, as usual I visited my club, opened my laptop. Logged in to Github. Went through a login screen. All fine till now and bam! A huge banner appeared on my screen.

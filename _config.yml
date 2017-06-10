@@ -1,12 +1,21 @@
 # Site settings
-title: Amitosh Swain Mahapatra
+title: The CharStream
+description: A stream of characters from Amitosh Swain Mahapatra
 email: asm@amitosh.in
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amitosh.in" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter: originalASM
-github:  Agathver
-linkedin: amitosh-swain
+twitter:
+  username: originalASM
+github:
+  username: Agathver
+linkedin:
+  username: amitosh-swain
+
+social:
+  name: Amitosh Swain Mahapatra
+
+lang: en_IN
 
 google_analytics: 'UA-73363098-1'
 # Build settings
@@ -19,18 +28,15 @@ permalink: pretty
 feed:
   path: /feed/atom.xml
 
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    author: 'Amitosh Swain Mahapatra'
+author:
+  name: 'Amitosh Swain Mahapatra'
+  twitter: originalASM
 
 gems:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
