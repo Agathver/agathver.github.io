@@ -39,11 +39,11 @@ This month's work has been full of interesting observations and experiences. I a
 
 These are the pull requests opened by me in the last month:
 
-1. [Extract and display project activity metrics #150](https://github.com/librecores/librecores-web/pull/150)
-2. [Configure Travis CI to run functional tests](https://github.com/librecores/librecores-web/pull/152)
-3. [Add nginx gzip compression #149](https://github.com/librecores/librecores-web/pull/149)
-4. [Add phpunit testing and travis CI #147](https://github.com/librecores/librecores-web/pull/147)
-5. [Add support for private Vagrant config #145](https://github.com/librecores/librecores-web/pull/145)
+1. [#150 Extract and display project activity metrics #150](https://github.com/librecores/librecores-web/pull/150)
+2. [#152 Configure Travis CI to run functional tests](https://github.com/librecores/librecores-web/pull/152)
+3. [#149 Add nginx gzip compression](https://github.com/librecores/librecores-web/pull/149)
+4. [#147 Add phpunit testing and travis CI](https://github.com/librecores/librecores-web/pull/147)
+5. [#145 Add support for private Vagrant config](https://github.com/librecores/librecores-web/pull/145)
 
 
 [1]:https://summerofcode.withgoogle.com
