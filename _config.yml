@@ -5,6 +5,8 @@ email: asm@amitosh.in
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amitosh.in" # the base hostname & protocol for your site, e.g. http://example.com
 
+assets_version: 1
+
 twitter:
   username: originalASM
 github:
