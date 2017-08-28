@@ -32,7 +32,7 @@ author:
   name: 'Amitosh Swain Mahapatra'
   twitter: originalASM
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap

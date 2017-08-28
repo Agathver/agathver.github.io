@@ -71,3 +71,34 @@ main h2 {
     }
   }
 }
+
+.image {
+  margin: 1em 0;
+  border: 1px solid #9a9a9a;
+  padding: 1em;
+  img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  .image-caption {
+    font-size: 0.75em;
+    font-style: italic;
+    color: #666666;
+    text-align: center;
+  }
+}
+
+.tick,
+.cross {
+  display: block;
+  text-align: center;
+}
+
+.tick {
+  color: green;
+}
+
+.cross {
+  color: red;
+}
