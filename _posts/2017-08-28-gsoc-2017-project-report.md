@@ -27,6 +27,8 @@ The original proposal for the project is available [here](https://docs.google.co
 
 The entire tracking map for my project can be found  [here](https://github.com/librecores/librecores-web/projects/3). 
 
+The list of all issues and PRs (tagged GSoC 2017) for my project can be found [here](https://github.com/librecores/librecores-web/issues?q=label%3A%22gsoc%202017%22).
+
 The corresponding project on GSoC 2017 Website can be found [here](https://summerofcode.withgoogle.com/projects/#5672435520110592)
 
 # Designing the solution
