@@ -8,9 +8,9 @@ url: "https://amitosh.in" # the base hostname & protocol for your site, e.g. htt
 assets_version: 1
 
 twitter:
-  username: originalASM
+  username: agathver
 github:
-  username: Agathver
+  username: agathver
 linkedin:
   username: amitosh-swain
 
@@ -32,7 +32,7 @@ feed:
 
 author:
   name: 'Amitosh Swain Mahapatra'
-  twitter: originalASM
+  twitter: agathver
 
 plugins:
   - jekyll-feed
@@ -45,3 +45,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
+  - vendor
