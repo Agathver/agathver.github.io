@@ -24,4 +24,4 @@ Currently, the app lacks any offline capabilities - you always require an in
 
 My work will be to bring offline storage and sync to Fedora Magazine and Fedora Social sections of the app. This will both improve the apps usability and performance. From a UX perspective, we will start syncing data rather than blocking the user from doing anything (as it is currently). The user can continue to act on cached items, while we continue to fetch new items in the background.
 
-Further in second week, I will be working on implementing a lightweight blog reader and caching complete offline copies of user-selected articles.
+Further in second month, I will be working on implementing a lightweight blog reader and caching complete offline copies of user-selected articles.
