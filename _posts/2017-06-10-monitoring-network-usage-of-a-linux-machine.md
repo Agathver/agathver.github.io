@@ -5,6 +5,7 @@ date:   2017-06-10 23:06:31 +0530
 categories: stories
 tags: [cloud, linux, networks]
 comments: true
+redirect_to: 'https://medium.com/@agathver/monitoring-network-usage-of-a-linux-machine-cf14529a1179'
 ---
 
 If you are on a Linux Workstation and are wondering what process is eating away your bandwith, or need to keep track of your VPSs monthly bandwidth usage, I am going to show you two effective tools for this purpose.
@@ -54,7 +55,7 @@ vnstat
                         rx      /      tx      /     total    /   estimated
     wlo1:
         Jun '17       590 KiB  /      13 KiB  /     603 KiB  /       0 KiB
-            today       590 KiB  /      13 KiB  /     603 KiB  /      --    
+            today       590 KiB  /      13 KiB  /     603 KiB  /      --
 
     eno1: Not enough data available yet.
     enp0s18f2u1:

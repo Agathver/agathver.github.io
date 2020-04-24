@@ -5,6 +5,7 @@ date: '2018-05-14 21:25:34+05:30'
 categories: stories
 tags: [gsoc, fedora]
 comments: true
+redirect_to: 'https://medium.com/@agathver/gsoc-2018-kicking-off-the-coding-fc509c91e6e3'
 ---
 It's May 14, and this is when we officially start coding for GSoC, 2018 edition. This time, I would be working on [improving the Fedora Community App]({{ site.baseurl }}{% post_url 2018-04-29-summer-code-and-fedora %}) with the Fedora project. This marks the beginning of a journey of 3 months of coding, patching, debugging, git (mess) and the awesome discussions with my mentors and the community.
 

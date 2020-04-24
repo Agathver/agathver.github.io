@@ -5,6 +5,7 @@ date:   '2017-06-26 11:55:12+05:30'
 categories: stories
 tags: [filesystems, linux, networks]
 comments: true
+redirect_to: 'https://medium.com/@agathver/almost-zero-configuration-nfs-network-shares-using-autofs-99cdbabceb69'
 ---
 
 AutoFS is a great and easy way to mount filesystems automatically, on-demand, when available. It works great for both networked and non-networked drives.

@@ -5,6 +5,7 @@ date:   2017-05-23 11:27:10 +0530
 categories: stories
 tags: [gsoc, librecores]
 comments: true
+redirect_to: 'https://medium.com/@agathver/summer-code-and-librecores-e46212f6a289'
 ---
 I have been selected for [Google Summer of Code][1] (GSoC) 2017. I’ll be working on displaying metrics about projects listed at [LibreCores.org][2] under the [Free and Open Source Sillicon Foundation][3].
 

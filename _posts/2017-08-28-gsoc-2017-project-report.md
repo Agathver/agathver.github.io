@@ -5,6 +5,7 @@ date:   '2017-08-28 21:15:11+05:30'
 categories: stories
 tags: ['librecores', 'google summer of code']
 comments: true
+redirect_to: 'https://medium.com/@agathver/gsoc-project-report-quality-metrics-for-projects-listed-on-librecores-org-7b19bc3e2702'
 ---
 
 [LibreCores.org](https://www.librecores.org/) lists free and open source "IP Cores" on the website for the community to view and use. Currently the website extracts the project readme and license and renders them on the project page, along with links to the project homepage and git repository.
@@ -23,9 +24,9 @@ I worked on my GSoC project from May to August 2017. My work was divided into fo
 
 4. Calculating a combined score of the the individual metrics and UI improvements.
 
-The original proposal for the project is available [here](https://docs.google.com/document/d/1VC0kSVr9gEtBq-gL9vQtzjc7rut7VvXDaYgE2xtUP98/edit?usp=sharing). 
+The original proposal for the project is available [here](https://docs.google.com/document/d/1VC0kSVr9gEtBq-gL9vQtzjc7rut7VvXDaYgE2xtUP98/edit?usp=sharing).
 
-The entire tracking map for my project can be found  [here](https://github.com/librecores/librecores-web/projects/3). 
+The entire tracking map for my project can be found  [here](https://github.com/librecores/librecores-web/projects/3).
 
 The list of all issues and PRs (tagged GSoC 2017) for my project can be found [here](https://github.com/librecores/librecores-web/issues?q=label%3A%22gsoc%202017%22).
 
@@ -79,7 +80,7 @@ In this phase I made the following PRs:
 
 My third phase, was again sub-divided into two parts - calculating combined metrics and improving the UI.
 
-In the first part, I implemented a heuristic formula to calculate a quality score of a project. We had [a lot of discussions in our mailing list](https://lists.librecores.org/pipermail/discussion/2017-August/000378.html) about the relevant metrics, and finally we came up with a [formula](https://github.com/librecores/librecores-web/issues/165). 
+In the first part, I implemented a heuristic formula to calculate a quality score of a project. We had [a lot of discussions in our mailing list](https://lists.librecores.org/pipermail/discussion/2017-August/000378.html) about the relevant metrics, and finally we came up with a [formula](https://github.com/librecores/librecores-web/issues/165).
 
 Here are the links to my pull requests:
 
@@ -91,7 +92,7 @@ Here are the links to my pull requests:
 
 1. [#172](https://github.com/librecores/librecores-web/pull/172) - Add meta tag for correct viewport sizing
 
-2. [#173](https://github.com/librecores/librecores-web/pull/173) - Add tab showing project metrics 
+2. [#173](https://github.com/librecores/librecores-web/pull/173) - Add tab showing project metrics
 
 <div class="image">
     <a href="/public/img/ui-redesign.png">

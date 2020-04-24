@@ -5,6 +5,7 @@ date:   2017-06-08 00:51:15 +0530
 categories: stories
 tags: [gsoc, librecores]
 comments: true
+redirect_to: 'https://medium.com/@agathver/invoking-executables-from-php-safely-d4e4cabe650f'
 ---
 
 PHP is a versatile language, but often we face the need to execute an external program to accomplish a task, not easily done using PHP.

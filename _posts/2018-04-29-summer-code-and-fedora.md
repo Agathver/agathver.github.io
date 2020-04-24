@@ -5,6 +5,7 @@ date: '2018-04-29 16:11:19+05:30'
 categories: stories
 tags: [gsoc, fedora]
 comments: true
+redirect_to: 'https://medium.com/@agathver/summer-code-and-fedora-36948753fdf2'
 ---
 I have been selected for [Google Summer of Code][1] (GSoC) 2018. I’ll be working on developing the backend for the [Fedora Community App][2].
 

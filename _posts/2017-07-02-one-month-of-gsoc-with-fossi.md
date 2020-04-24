@@ -5,6 +5,7 @@ date:   '2017-07-03 00:07:31+05:30'
 categories: stories
 tags: ['librecores', 'google summer of code', 'symfony', 'php']
 comments: true
+redirect_to: 'https://medium.com/@agathver/one-month-of-google-summer-of-code-with-fossi-7925ff973695'
 ---
 
 It has been a month since I have been working on my [Google Summer of Code][1] Project with [Free and Open Source Sillicon Foundation][2]. And in this month I have been working to [extract and display statistics about code of projects listed in LibreCores.org][3].
