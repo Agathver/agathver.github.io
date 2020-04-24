@@ -7,12 +7,16 @@ url: "https://amitosh.in" # the base hostname & protocol for your site, e.g. htt
 
 assets_version: 1
 
+repository_url: 'https://github.com/agathver/agathver.github.io'
+
 twitter:
   username: agathver
 github:
   username: agathver
 linkedin:
   username: amitosh-swain
+medium:
+  username: agathver
 
 social:
   name: Amitosh Swain Mahapatra

@@ -1,0 +1,141 @@
+$primary: #1976d2;
+$primary-dark: #0d47a1;
+$black: #212121;
+$gray: #888;
+$page-width: 40rem;
+$freesize: 30rem;
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cairo", sans-serif;
+  align-items: center;
+}
+
+main,
+footer {
+  max-width: $page-width;
+  padding: 2rem;
+}
+
+main {
+  flex: 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: $primary;
+}
+
+.portrait {
+  img {
+    max-width: 15rem;
+    max-height: 15rem;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 50%;
+    border: 1rem solid;
+    border-color: $black $primary-dark $primary-dark $black;
+  }
+}
+
+.about,
+.social,
+.intro,
+footer {
+  text-align: center;
+}
+
+.about {
+  h1,
+  h2 {
+    margin: 1rem 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+    @media (min-width: $freesize) {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+  }
+
+  h2 {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: $primary;
+    text-transform: uppercase;
+
+    @media (min-width: $freesize) {
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .info {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: $freesize) {
+      flex-direction: row;
+    }
+
+    span {
+      margin: 0 0.5rem;
+      word-wrap: none;
+    }
+  }
+}
+
+.social {
+  margin: 2rem 0;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline;
+      margin: 1rem 0.25rem;
+      padding: 0.25rem;
+
+      @media (min-width: $freesize) {
+        margin: 1rem 0.5rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+.intro {
+  text-align: center;
+}
+
+footer {
+  .copyright {
+    font-size: 0.85rem;
+  }
+  .imprint {
+    color: $gray;
+    font-size: 0.85rem;
+  }
+}

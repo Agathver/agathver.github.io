@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    {{ content }}
-    <div class="row">
-      <footer class="large-6 large-offset-3 columns">
-        <h2>Contact Me</h2>
-        <p>
-          Send me an <a href="mailto:{{ site.email }}?Subject=Hello!">email</a> or
-          ping me on <a href="https://twitter.com/{{site.twitter.username}}">Twitter</a>.
-          I’m also on <a href="https://github.com/{{site.github.username}}">Github</a>
-          and <a href="https://in.linkedin.com/in/{{site.linkedin.username}}">Linkedin</a>.
-        </p>
+{% include head.html %}
 
-        <p class="copyright">
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Amitosh Swain Mahapatra. All Rights Reserved.<br />
-        </p>
-      </footer>
-    </div>
-    {% include footer.html %}
-  </body>
+<body>
+  {{ content }}
+
+  <footer class="large-6 large-offset-3 columns">
+    <p class="copyright">
+      &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Amitosh Swain
+      Mahapatra. Content available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+    </p>
+    <p class="imprint">
+      Powered by Jekyll. <a href="{{ site.repository_url }}">Source</a>
+    </p>
+  </footer>
+  {% include footer.html %}
+</body>
+
 </html>

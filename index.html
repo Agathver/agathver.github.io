@@ -3,68 +3,47 @@ layout: default
 title: home
 ---
 
-<div class="row">
-  <div class="large-12 large-centered columns">
-    <header class="masthead">
-      <div>
-        <img src="{{ site.baseurl }}/public/profile.jpg" alt="{{ site.title }}">
-      </div>
-      <div class="row social">
-        <ul>
-          <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://github.com/{{ site.github.username }}"><i class="fa fa-github"></i></a></li>
-          <li><a href="https://in/linkedin.com/in/{{ site.linkedin.username }}"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-    </header>
+<main>
+  <div class="portrait">
+    <img src="{{ site.baseurl }}/public/profile.jpg" alt="{{ site.title }}">
   </div>
-</div>
-<div class="row">
-  <div class="large-6 large-offset-3 columns">
-    <div class="content-section">
-      <h2>Amitosh Swain Mahapatra</h2>
-      <p><i class="fa fa-briefcase" aria-hidden="true"></i> Product Engineer @ Gojek</p>
-      <p><i class="fa fa-map-marker"></i> Bangalore, IN</p>
-      <p>
-        A cloud engineer, full stack developer, conference speaker, open-source contributor and computer whisperer from
-        Bangalore,
-        India. Been conjuring code since 2010</p>
-      <p>
-        I’ve created, as well as contributed to a number of <a href="https://github.com/{{ site.github.username }}">
-          open source projects</a> using Java, Go, NodeJS, &amp; Python.
-      </p>
-      <p>
-        I am the maintainer of the popular NodeJS module called `bcrypt`, which gets around
-        2 million installs every day making it one of the most used NodeJS modules.
-      </p>
-      <p>
-        I have worked with the FOSSi Foundation as part of the Google Summer of Code, 2017,
-        and the Fedora Project as part of the Google Summer of Code, 2018 and I am an active
-        contributor to Fedora Project, FOSSi foundation, Elastic and numerous other open source projects.
-      </p>
-      <p>
-        I work at Gojek, the south-east asia's "super-app", as a product engineer for the GoPay team where I develop
-        payment APIs using all sorts of interesting technologies and challenges.
-      </p>
+
+  <div class="about">
+    <h1 class="name">Amitosh Swain Mahapatra</h1>
+    <h2 class="pro-desc">Software Engineer / Computer Whisperer</h2>
+
+    <div class="info">
+      <span><i class="fa fa-briefcase" aria-hidden="true"></i> Product Engineer @ Gojek</span>
+      <span><i class="fa fa-map-marker"></i> Bangalore, IN</span>
     </div>
-    <main>
-      <div class="posts">
-        <h1>Latest Posts</h1>
-        {% for post in site.posts limit:5 %}
-        <article class="project-post">
-          <h3>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </h3>
-          <div class="post-date">
-            <time datetime="post.date | date_to_xmlschema">{{ post.date | date_to_long_string }}</time>
-          </div>
-          {{ post.excerpt }}
-        </article>
-        {% endfor %}
-        <div class="navigation">
-          <a class="navigation-button" href="blog">View all</a>
-        </div>
-      </div>
-    </main>
   </div>
-</div>
+
+  <div class="social">
+    <ul>
+      <li><a href="mailto:{{ site.email }}?Subject=Hello!"><i class="fas fa-lg fa-envelope"></i></a>
+      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-lg fa-twitter"></i></a></li>
+      <li><a href="https://github.com/{{ site.github.username }}"><i class="fab fa-lg fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/{{ site.linkedin.username }}"><i class="fab fa-lg fa-linkedin"></i></a></li>
+      <li><a href="https://medium.com/@{{ site.medium.username }}"><i class="fab fa-lg fa-medium"></i></a></li>
+    </ul>
+  </div>
+
+
+  <div class="intro">
+    <p>
+      A software engineer, conference speaker, open-source contributor and computer whisperer from
+      Bangalore, India. Been conjuring code since 2010.
+    </p>
+    <p>
+      Loves to revel in creativity &mdash; draws, sketches and cooks. Passionate gamer. Likes sci-fi
+      movies, electronic, metal and rock music.
+    </p>
+    <p>
+      Created, as well as contributed to a number of <a href="https://github.com/{{ site.github.username }}">
+        open source projects</a> using Java, Go, NodeJS, &amp; Python.
+    </p>
+    <p>
+      Always looking for challenges, problems to solve and learning great new skills, technologies and tools.
+    </p>
+  </div>
+</main>
